@@ -4,9 +4,5 @@ resources:
  - deployment-frontend.yaml 
  - deployment.yaml
  - service-frontend.yaml
- - service.yam
+ - service.yaml
    
-images:
-  name: mysql
-  newName: registry.redhat.io/rhel8/mysql-80
-  newTag: 1-152
